@@ -36,7 +36,7 @@ export function BlogSection() {
             Latest <span className="text-primary">Thoughts</span>
           </h2>
           <p className="max-w-xl text-pretty text-muted-foreground">
-            Articles about development, design, and creative technology.
+            Articles about development, experiences, and learning latest technology.
           </p>
         </div>
 

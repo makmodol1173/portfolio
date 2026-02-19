@@ -4,7 +4,7 @@
     "title": "TechJobHub",
     "description": "A smart recruitment platform connecting job seekers and recruiters with AI-powered resume feedback.",
     "longDescription": "A full-stack web application that connects job seekers and recruiters through smart filtering and job management features. Integrated AI-based resume feedback using Mistral AI and LangChain to assist candidates in improving their resumes. Includes HR dashboard for job posting and candidate tracking.",
-    "techStack": ["HTML", "CSS", "JavaScript", "Django", "Mistral AI", "LangChain"],
+    "techStack": ["HTML", "CSS", "Django", "LangChain", "JavaScript", "Mistral AI"],
     "thumbnail": "",
     "images": [],
     "githubLink": "https://github.com/makmodol1173/TechJobHub",

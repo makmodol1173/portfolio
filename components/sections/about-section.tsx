@@ -78,7 +78,7 @@ export function AboutSection() {
               href="https://drive.google.com/file/d/18LvQoY-_nnWJSjl2DKWGLAx_tsBd473A/view"
               target="_blank"
               rel="noopener noreferrer"
-              className="glass-panel px-6 py-3 text-sm font-medium text-primary border border-primary/20 rounded-lg backdrop-blur-md bg-primary/10 hover:bg-primary/20 hover:text-white hover:border-primary/40 transition-all duration-300 shadow-md hover:shadow-primary/30"
+              className="grounded-lg border border-border px-6 py-3 font-mono text-sm text-foreground transition-all hover:border-primary/50 hover:text-primary"
             >
               Get My CV
             </a>

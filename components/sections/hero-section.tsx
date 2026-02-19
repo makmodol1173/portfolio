@@ -111,7 +111,7 @@ export function HeroSection() {
                 .getElementById("projects")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
-            className="rounded-lg bg-primary px-6 py-3 font-mono text-sm font-medium text-primary-foreground transition-all hover:opacity-90 neon-glow"
+            className="rounded-lg bg-primary px-6 py-3 font-mono text-sm font-medium text-primary-foreground transition-all hover:opacity-80 neon-glow"
           >
             View Projects
           </button>

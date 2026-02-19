@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Send, Mail, MapPin } from "lucide-react"
+import { Send, Mail, MapPin, Phone } from "lucide-react"
 
 export function ContactSection() {
   const [form, setForm] = useState({
@@ -74,6 +74,18 @@ export function ContactSection() {
         >
           {/* Info */}
           <div className="flex flex-col gap-6 md:col-span-1">
+            <div className="glass-panel p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                <Phone className="h-5 w-5" />
+              </div>
+              <h3 className="mb-1 font-mono text-sm font-semibold text-foreground">
+                Phone
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                +8801773060694
+              </p>
+            </div>
+
             <div className="glass-panel p-5">
               <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
                 <Mail className="h-5 w-5" />
@@ -163,7 +175,7 @@ export function ContactSection() {
               <textarea
                 id="message"
                 required
-                rows={5}
+                rows={7}
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
                 className="w-full resize-none rounded-lg border border-border bg-background/50 px-3 py-2.5 text-sm text-foreground outline-none transition-colors focus:border-primary"

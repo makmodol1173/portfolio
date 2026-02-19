@@ -1,0 +1,24 @@
+[
+  {
+    "id": "post-001",
+    "title": "Building Performant 3D Experiences on the Web",
+    "content": "The web has evolved into a powerful platform for immersive 3D experiences. With WebGL2 and upcoming WebGPU support, the browser is becoming a first-class citizen for real-time graphics.\n\n## The State of Web 3D\n\nReact Three Fiber has fundamentally changed how we think about 3D on the web. By bridging React's declarative component model with Three.js's powerful rendering engine, we can build complex scenes with the same mental model we use for UI components.\n\n## Performance Considerations\n\nThe key to smooth 3D on the web is understanding the render pipeline. Minimize draw calls by using instanced meshes, leverage GPU-based particle systems, and always profile with Chrome DevTools' performance tab.\n\n## Looking Forward\n\nWebGPU will unlock compute shaders in the browser, enabling physics simulations and AI inference directly on the GPU. The future of web 3D is incredibly promising.",
+    "excerpt": "Exploring the techniques and tools for creating smooth, immersive 3D experiences in the browser using React Three Fiber and WebGL.",
+    "tags": ["WebGL", "React Three Fiber", "Performance", "3D"],
+    "category": "Technical",
+    "published": true,
+    "createdAt": "2025-12-01T10:00:00Z",
+    "updatedAt": "2025-12-01T10:00:00Z"
+  },
+  {
+    "id": "post-002",
+    "title": "Designing for the Dark: UI Principles for Dark Interfaces",
+    "content": "Dark interfaces are more than just inverting colors. They require a fundamentally different approach to hierarchy, contrast, and visual rhythm.\n\n## Depth Through Luminance\n\nIn dark UIs, elevation is communicated through luminance rather than shadow. Higher surfaces are lighter. This creates a natural sense of depth that feels intuitive.\n\n## Color Restraint\n\nDark interfaces amplify color. A single neon accent on a dark surface commands attention in ways that would be lost on a light background. Use color sparingly and with purpose.\n\n## Accessibility Matters\n\nMaintain a minimum contrast ratio of 4.5:1 for body text and 3:1 for large text. Dark doesn't mean low contrast -- it means carefully controlled contrast.",
+    "excerpt": "Dark interfaces require a different design philosophy. Learn the principles of depth, color restraint, and accessibility in dark UI design.",
+    "tags": ["Design", "UI/UX", "Dark Mode", "Accessibility"],
+    "category": "Design",
+    "published": true,
+    "createdAt": "2025-10-15T10:00:00Z",
+    "updatedAt": "2025-10-15T10:00:00Z"
+  }
+]

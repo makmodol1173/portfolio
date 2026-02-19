@@ -1,0 +1,33 @@
+[
+  { "id": "sk-01", "name": "HTML", "level": 75, "category": "Web Development" },
+  { "id": "sk-02", "name": "CSS", "level": 75, "category": "Web Development" },
+  { "id": "sk-03", "name": "JavaScript", "level": 70, "category": "Web Development" },
+  { "id": "sk-05", "name": "Django", "level": 75, "category": "Web Development" },
+  { "id": "sk-06", "name": "PHP", "level": 60, "category": "Web Development" },
+  { "id": "sk-07", "name": "Laravel", "level": 60, "category": "Web Development" },
+  { "id": "sk-08", "name": "MySQL", "level": 80, "category": "Web Development" },
+  { "id": "sk-09", "name": "SQLite", "level": 70, "category": "Web Development" },
+
+  { "id": "sk-10", "name": "C", "level": 85, "category": "Programming Language" },
+  { "id": "sk-11", "name": "C++", "level": 85, "category": "Programming Language" },
+  { "id": "sk-12", "name": "Java", "level": 75, "category": "Programming Language" },
+  { "id": "sk-04", "name": "Python", "level": 80, "category": "Programming Language" },
+
+  { "id": "sk-13", "name": "OpenCV", "level": 80, "category": "AI/ML" },
+  { "id": "sk-14", "name": "Scikit-Learn", "level": 75, "category": "AI/ML" },
+  { "id": "sk-15", "name": "TensorFlow", "level": 70, "category": "AI/ML" },
+  { "id": "sk-16", "name": "Keras", "level": 70, "category": "AI/ML" },
+  { "id": "sk-17", "name": "PyTorch", "level": 70, "category": "AI/ML" },
+  { "id": "sk-18", "name": "LangChain", "level": 65, "category": "AI/ML" },
+
+  { "id": "sk-19", "name": "Matplotlib", "level": 75, "category": "Data Visualization" },
+  { "id": "sk-20", "name": "Seaborn", "level": 70, "category": "Data Visualization" },
+  { "id": "sk-21", "name": "SciPy", "level": 70, "category": "Data Visualization" },
+  { "id": "sk-22", "name": "SHAP", "level": 65, "category": "Data Visualization" },
+
+  { "id": "sk-23", "name": "Streamlit", "level": 75, "category": "Tools & Design" },
+  { "id": "sk-24", "name": "Unity", "level": 50, "category": "Tools & Design" },
+  { "id": "sk-25", "name": "Figma", "level": 60, "category": "Tools & Design" },
+  { "id": "sk-26", "name": "Canva", "level": 60, "category": "Tools & Design" },
+  { "id": "sk-27", "name": "LaTeX", "level": 70, "category": "Tools & Design" }
+]

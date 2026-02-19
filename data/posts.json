@@ -1,24 +1,35 @@
 [
   {
-    "id": "post-001",
-    "title": "Building Performant 3D Experiences on the Web",
-    "content": "The web has evolved into a powerful platform for immersive 3D experiences. With WebGL2 and upcoming WebGPU support, the browser is becoming a first-class citizen for real-time graphics.\n\n## The State of Web 3D\n\nReact Three Fiber has fundamentally changed how we think about 3D on the web. By bridging React's declarative component model with Three.js's powerful rendering engine, we can build complex scenes with the same mental model we use for UI components.\n\n## Performance Considerations\n\nThe key to smooth 3D on the web is understanding the render pipeline. Minimize draw calls by using instanced meshes, leverage GPU-based particle systems, and always profile with Chrome DevTools' performance tab.\n\n## Looking Forward\n\nWebGPU will unlock compute shaders in the browser, enabling physics simulations and AI inference directly on the GPU. The future of web 3D is incredibly promising.",
-    "excerpt": "Exploring the techniques and tools for creating smooth, immersive 3D experiences in the browser using React Three Fiber and WebGL.",
-    "tags": ["WebGL", "React Three Fiber", "Performance", "3D"],
-    "category": "Technical",
-    "published": true,
-    "createdAt": "2025-12-01T10:00:00Z",
-    "updatedAt": "2025-12-01T10:00:00Z"
+  "id": "post-001",
+  "title": "Building Real-Time Gesture Recognition Systems with OpenCV and MediaPipe",
+  "content": "Real-time gesture recognition has become an essential component in modern human-computer interaction systems. Using OpenCV and MediaPipe, developers can build intelligent vision-based applications that interpret human hand gestures for controlling software interfaces.\n\n## Computer Vision Pipeline\n\nA typical real-time gesture system involves video frame capture, landmark detection using MediaPipe, feature extraction, and classification using machine learning algorithms. Efficient preprocessing and tracking are key to maintaining performance.\n\n## Application Areas\n\nGesture-based systems are used in accessibility tools, touchless interfaces, and AI-powered educational platforms. These systems can also be extended for sign language recognition and robotic control.\n\n## Challenges\n\nHandling latency, lighting conditions, and gesture variability remains a major challenge. Optimization of frame processing is essential for maintaining accuracy and responsiveness.",
+  "excerpt": "Learn how real-time gesture recognition systems are built using OpenCV and MediaPipe for touchless human-computer interaction.",
+  "tags": ["Computer Vision", "OpenCV", "MediaPipe", "Real-Time Systems"],
+  "category": "Computer Vision",
+  "published": true,
+  "createdAt": "2025-06-10T10:00:00Z",
+  "updatedAt": "2025-06-10T10:00:00Z"
   },
   {
-    "id": "post-002",
-    "title": "Designing for the Dark: UI Principles for Dark Interfaces",
-    "content": "Dark interfaces are more than just inverting colors. They require a fundamentally different approach to hierarchy, contrast, and visual rhythm.\n\n## Depth Through Luminance\n\nIn dark UIs, elevation is communicated through luminance rather than shadow. Higher surfaces are lighter. This creates a natural sense of depth that feels intuitive.\n\n## Color Restraint\n\nDark interfaces amplify color. A single neon accent on a dark surface commands attention in ways that would be lost on a light background. Use color sparingly and with purpose.\n\n## Accessibility Matters\n\nMaintain a minimum contrast ratio of 4.5:1 for body text and 3:1 for large text. Dark doesn't mean low contrast -- it means carefully controlled contrast.",
-    "excerpt": "Dark interfaces require a different design philosophy. Learn the principles of depth, color restraint, and accessibility in dark UI design.",
-    "tags": ["Design", "UI/UX", "Dark Mode", "Accessibility"],
-    "category": "Design",
-    "published": true,
-    "createdAt": "2025-10-15T10:00:00Z",
-    "updatedAt": "2025-10-15T10:00:00Z"
+  "id": "post-002",
+  "title": "Explainable AI: Understanding Model Decisions Using SHAP",
+  "content": "Machine learning models often act as black boxes, making it difficult to interpret how predictions are generated. Explainable AI techniques like SHAP (SHapley Additive Explanations) help visualize feature contributions for individual predictions.\n\n## Why Interpretability Matters\n\nUnderstanding feature importance improves trust and reliability of machine learning systems, especially in safety-critical applications.\n\n## SHAP Visualization\n\nSHAP provides global and local interpretability through summary plots, force plots, and dependence plots, helping developers analyze model behavior.\n\n## Practical Use Cases\n\nExplainable AI is widely used in healthcare diagnostics, driver monitoring systems, and risk prediction models to validate decisions and reduce bias.",
+  "excerpt": "Explore how SHAP enhances the interpretability of machine learning models by visualizing feature importance.",
+  "tags": ["Explainable AI", "SHAP", "Machine Learning", "Deep Learning", "Model Interpretation"],
+  "category": "AI/ML",
+  "published": true,
+  "createdAt": "2025-11-25T10:00:00Z",
+  "updatedAt": "2025-11-25T10:00:00Z"
+  },
+  {
+  "id": "post-003",
+  "title": "My Internship Journey: From Academic Learning to Real-World Experience",
+  "content": "Transitioning from academic learning to a real-world development environment was one of the most impactful phases of my journey as a software engineering student. My internship experience introduced me to industry-level workflows, collaborative development practices, and practical problem-solving beyond textbooks.\n\n## Facing Real-World Challenges\n\nDuring the internship, I worked with full-stack web technologies and machine learning-based systems. Handling project requirements, debugging real-time issues, and adapting to changing development environments helped me strengthen my technical and analytical skills.\n\n## Learning Beyond the Classroom\n\nUnlike academic projects, industry work required attention to performance, scalability, and maintainability. I gained experience in integrating frontend and backend systems, working with datasets, and developing intelligent applications.\n\n## Problem-Solving Under Pressure\n\nWorking in a professional setting improved my ability to manage deadlines and troubleshoot unexpected issues efficiently without panic.\n\n## Growth and Reflection\n\nThis internship helped me understand the importance of teamwork, documentation, and clean system design. It played a vital role in bridging the gap between theoretical knowledge and real-world software development practices.",
+  "excerpt": "A reflection on my internship journey and how it helped bridge the gap between academic learning and industry-level development.",
+  "tags": ["Internship", "AI/ML", "Learning Experience", "Industry"],
+  "category": "Career",
+  "published": true,
+  "createdAt": "2026-01-30T10:00:00Z",
+  "updatedAt": "2026-01-30T10:00:00Z"
   }
 ]

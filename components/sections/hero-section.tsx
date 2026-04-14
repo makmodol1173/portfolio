@@ -55,8 +55,12 @@ export function HeroSection() {
             data-animate
             className="mb-8 text-left text-8xl font-bold leading-tight tracking-tight text-foreground md:text-6xl lg:text-5xl"
           >
+            <img 
+            src="https://see.fontimg.com/api/rf5/aYKMm/MWQzMDYzMDRhMzM3NGMyNmJiNTcxZWI0MzIzYWY2ODEub3Rm/SGksIEknbQ/sling-note.png?r=fs&h=30&w=800&fg=FFFDFD&bg=020202&tb=1&s=45"
+            />
+            <br />
             <img
-            src="https://see.fontimg.com/api/rf5/lalw/NmVmNTQzOWYyN2RmNDkxZTg5MzIxYjY2ODM0OTRmZjAudHRm/SSdtIE1ha21kdWwgSGFzYW4gUmFiYmk/dream-her-regular.png?r=fs&h=65&w=1250&fg=3EF2F2&bg=000808&tb=1&s=70"
+            src="https://see.fontimg.com/api/rf5/nA0nM/MGE2MmU3YTJmZjFjNGI2ZDgxMDUxNjVjZjcwMmM5MzAub3Rm/TWFrbXVkdWwgSGFzYW4gUmFiYmk/mood-special.png?r=fs&h=100&w=1300&fg=FFFDFD&bg=020202&tb=1&s=65"
             />
             <br />
             <span className="text-primary neon-text">
@@ -88,7 +92,7 @@ export function HeroSection() {
           
         {/* Right Side: Circular Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
-          <div className="relative w-64 h-64 rounded-full overflow-hidden border-2 border-[#07e3d8] drop-shadow-[0_0_4px_#07e3d8]">
+          <div className="relative w-64 h-64 rounded-full overflow-hidden border-2 border-[#07e3d8] drop-shadow-[0_0_2px_#07e3d8]">
 
             <Image
               src="/images/portfolio_myimg.jpg"
